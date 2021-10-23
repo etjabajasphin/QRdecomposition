@@ -6,6 +6,7 @@ To implement QR decomposition algorithm using the Householder reflection method.
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 1.	The householder reflection is given by 
+
     ![eqn1](./eq1.jpg)
 2.	The vector u is given by
 
