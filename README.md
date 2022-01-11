@@ -1,22 +1,27 @@
 # Algorithm for QR Decomposition
 ## Aim:
-To implement QR decomposition algorithm using the Householder reflection method.
+To implement QR decomposition algorithm using the Gram-Schmidt method.
 ## Equipment’s required:
 1.	Hardware – PCs
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-1.	The householder reflection is given by 
+1.	Intialize the matrix Q and u
+2.	The vector u and e is given by
 
-    ![eqn1](./eq1.jpg)
-2.	The vector u is given by
+    ![eqn1](./ex4.jpg)
 
-    ![eqn2](./eq2.jpg)
-3.	Q matrix can be found by taking the dot product of each successively formed Householder matrix. 
-![eqn3](./eq3.jpg)
-4.	Find appropriate H matrices and multiplying them from the left by the original matrix A to construct the upper triangular matrix R.
+    ![eqn2](./ex6.jpg)
+
+    ![eqn3](./ex3.jpg)
+
+3.	Obtain the Q matrix   
+    ![eqn4](./ex1.jpg)
+4.	Construct the upper triangular matrix R
+    ![eqn5](./ex5.jpg)
+
 
 ## Program:
-i)	# Householder reflection method
+### Gram-Schmidt Method
 ```
 
 
@@ -26,16 +31,11 @@ i)	# Householder reflection method
 
 
 ```
-ii)	# using np.linalg.qr
+
+## Output
 ```
 
-
-
-
-
 ```
-## Sample Input and Output
-![inp](./input.jpg)
 
 ## Result
-Thus the QR decomposition algorithm using the Householder reflection method is written and verified the result.
+Thus the QR decomposition algorithm using the Gram-Schmidt process is written and verified the result.
